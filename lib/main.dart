@@ -1,3 +1,4 @@
+import 'package:e_commerce_application/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -12,6 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
+
+      home: HomeScreen(),
       
     );
   }
